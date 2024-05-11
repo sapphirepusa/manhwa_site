@@ -1,114 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-body {
-    background-color: #fbfbfe;
-}
 
-.navigation-panel{
-    background-color: black;
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: auto;
-   
 
-}
-
-.main-panel-wrap{
-    padding-top: 80px;
-    margin: 0;
- 
-    /* background-color: aqua; */
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
-  
-}
-
-/* .bg-img-blurv {
-    background-color: black;
-    box-sizing: border-box;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-} */
-
-.main-panel{
-    display: block;
+.margin__wrap {
     background-color: #F4F4F6;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
-   
+    padding: 30px;  
 }
 
-.radius-img-main{
+#main__img {
     border: none;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.radius-img{
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 100px;
- 
-}
-
-.panel-img{
+    border-radius: 15px;
     display: block;
-    max-width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 100px;
-    
-
-}
- 
-.wrap-text{
-   text-align: justify;
-   
-}
-
-.wrapper{
-    /* border: 5px solid black; */
-    width: auto;
-    margin: 0 auto;
-    margin: 30px;
-    text-align: center;
-}
-
-.color{
-    /* border: 5px solid black; */
-    display: inline-block;
-    vertical-align: middle;
-
-}
-
-.spaceme_header {
-    padding: 10px 10px;
+    width: 50%;
     margin: auto;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    color: #24252a;
-    text-decoration: none;
-}
-
-.spaceme {
-    padding: 10px 10px;
-    margin: auto;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #24252a;
-    text-decoration: none;
-
 }

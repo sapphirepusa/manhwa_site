@@ -17,17 +17,17 @@ li, a, button {
 
 }
 
-header {
+.main_home{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 20px 10%;
     background-color: #24252a;
-    position: fixed;
+    position:sticky;
     width: 100%;
 }
 
-.logo {
+#manhwa_logo {
     cursor: pointer;
     margin-right: auto;
     font-family: "Montserrat", sans-serif;
@@ -37,11 +37,11 @@ header {
 
 }
 
-.logo {
+#manhwa_logo {
     transition: all 0.3s ease 0s;
 }
 
-.logo:hover {
+#manhwa_logo:hover {
     color: #0088a9;
 }
 
@@ -75,6 +75,3 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
-.colorme {
-    background-color:aquamarine;
-}
