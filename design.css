@@ -39,6 +39,7 @@
     align-items: center;
 }
 
+
 .card-img {
     height: 400px;
     width: 280px;
@@ -65,3 +66,24 @@
 .a-title:hover {
     color: #6c757d;
 }
+
+.footer {
+    display: block;
+    background-color: #f5f3f4;
+    height: 200px;
+    width: auto;
+    margin-top: 100px
+}
+
+.list-style-footer {
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.li-list-footer {
+    list-style: none;
+    padding: 20px;
+}
+
